@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ankademin Quiz</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="head-div">
+      <h1>Ankademin Quiz</h1>
+      <img
+        src="img/themeBtn.png"
+        alt="theme-symbol"
+        id="change-theme"
+        width="40"
+        height="40"
+      />
+    </div>
+    <div class="container">
+      <head>
+        <div id="setting-div">
+          <fieldset class="settings-fieldset">
+            <legend>Choose your settings</legend>
+            <div id="settings-container">
+              <div id="sub-settings-div">
+                <div class="nr-questions-div">
+                  <fieldset class="sub-settings-fieldset">
+                    <legend for="select-category">Questions</legend>
+                    <select name="type" id="nr-of-questions">
+                      <option value="1">1</option>
+                      <option value="3">3</option>
+                      <option value="8">8</option>
+                      <option value="12">12</option>
+                    </select>
+                  </fieldset>
+                </div>
+                <div class="select-difficulty">
+                  <fieldset class="sub-settings-fieldset">
+                    <legend>Difficulty</legend>
+                    <select name="type" id="select-difficulty">
+                      <option value="easy">Easy</option>
+                      <option value="medium">Medium</option>
+                      <option value="hard">Hard</option>
+                    </select>
+                  </fieldset>
+                </div>
+                <div class="select-type-div">
+                  <fieldset class="sub-settings-fieldset">
+                    <legend>Type</legend>
+                    <select name="type" id="select-type">
+                      <option value="">Any</option>
+                      <option value="boolean">True/False</option>
+                      <option value="multiple">multiple</option>
+                    </select>
+                  </fieldset>
+                </div>
+                <div class="select-category-div">
+                  <fieldset class="sub-settings-fieldset">
+                    <legend>Category</legend>
+                    <select name="category" id="select-category">
+                      <option value="17">Science & Nature</option>
+                      <option value="18">Science: Computers</option>
+                      <option value="19">Science: Mathematics</option>
+                    </select>
+                  </fieldset>
+                </div>
+              </div>
+              <div class="generate-btn-div">
+                <button id="generate-btn" class="btn">Generate Quiz</button>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+      </head>
+
+      <div id="question-container">
+        <fieldset class="settings-fieldset">
+          <legend>Quiz</legend>
+          <div class="question-div"></div>
+        </fieldset>
+      </div>
+
+      <div id="result-container">
+        <fieldset class="settings-fieldset" id="result-fieldset">
+          <legend>Result</legend>
+          <button id="result-btn" class="btn">See Result</button>
+          <div id="final-score-div">
+            <p>Score: <strong id="final-score"></strong></p>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
