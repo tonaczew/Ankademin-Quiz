@@ -1,5 +1,9 @@
 # Ankademin-Quiz
 
+#### Information
+- Author: Philip Tonaczew
+- Last update: April 6, 2022
+
 A quiz application that allows users to answer questions and receive feedback on the accuracy of their responses. Users should be able to generate a quiz by selecting from different categories, difficulty levels, and the number of questions. Questions will be retrieved from the following API: https://opentdb.com/api_config.php
 
 The quiz application is built using HTML, CSS, JavaScript, Axios, and jQuery.
