@@ -28,6 +28,6 @@ To play the quiz game, follow these steps:
 
 If you want to play again, start from step 1.
 
-##License
+## License
 
 The Food Hunter frontend is released under the MIT License. See the LICENSE file for more information.
