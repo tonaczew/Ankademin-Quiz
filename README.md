@@ -8,7 +8,10 @@ The quiz application is built using HTML, CSS, JavaScript, Axios, and jQuery.
 
 To get started with this project, follow these steps:
 
-- Clone this repository to your local machine using the following command: `git clone https://github.com/tonaczew/Ankademin-Quiz.git`
+- Clone this repository to your local machine using the following command: 
+
+`git clone https://github.com/tonaczew/Ankademin-Quiz.git`
+
 - Open the index.html file in your web browser to launch the quiz application.
 
 Alternatively, you can try the live version of the quiz application hosted on GitHub Pages. You can access the live version by visiting the following URL in your web browser: https://tonaczew.github.io/Ankademin-Quiz/
